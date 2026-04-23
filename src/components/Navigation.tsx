@@ -41,8 +41,7 @@ export function Navigation() {
     <nav className="fixed top-6 left-0 w-full z-50 px-4 flex justify-center">
       <div className="w-full max-w-4xl flex justify-between items-center bg-gorb-bg/90 backdrop-blur-md border border-gorb/10 rounded-full px-6 py-3 shadow-2xl">
         <Link to="/" className="flex items-center gap-3 flex-shrink-0">
-          <img src={ASSETS.logo} alt="Gorbagana" className="h-6 sm:h-8 object-contain" />
-          <span className="font-display tracking-widest text-lg text-gorb hidden sm:inline-block">GORBAGANA</span>
+          <img src={ASSETS.logo} alt="Gorbagana" className="h-8 sm:h-10 object-contain" />
         </Link>
         <div className="hidden md:flex items-center gap-6 lg:gap-8">
           <NavLink href="#what-is-gor">What is Gorbagana</NavLink>

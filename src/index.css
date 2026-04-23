@@ -4,14 +4,15 @@
 @theme {
   --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
   --font-display: "Staatliches", sans-serif;
-  --color-gorb: #c6deb2;
-  --color-gorb-dark: #7db86b;
-  --color-gorb-bg: #141b0f;
-  --color-gorb-text: #899381;
+  /* Colors extracted from gorbagana_mascot.png */
+  --color-gorb: #0BBAF2;      /* Primary Blue/Cyan from Mascot */
+  --color-gorb-dark: #436C7E; /* Muted Dark Blue/Grey from Trash Can */
+  --color-gorb-bg: #0c0f0a;   /* Dark Background */
+  --color-gorb-text: #84AFC0; /* Light Blue/Grey from Highlights */
 }
 
 body {
   background-color: #0c0f0a;
-  color: #c6deb2;
+  color: #0BBAF2;
   -webkit-font-smoothing: antialiased;
 }

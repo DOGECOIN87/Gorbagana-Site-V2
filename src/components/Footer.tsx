@@ -21,7 +21,7 @@ export function Footer() {
         </div>
 
         <div className="flex flex-col items-center opacity-50 hover:opacity-100 transition-opacity">
-          <img src={ASSETS.logo} alt="Gorbagana" className="h-10 object-contain grayscale invert mb-4" />
+          <img src={ASSETS.logo} alt="Gorbagana" className="h-10 object-contain mb-4" />
           <p className="text-sm font-bold tracking-widest text-gorb/50 uppercase font-sans">© {new Date().getFullYear()} The Trash Chain</p>
         </div>
       </div>
