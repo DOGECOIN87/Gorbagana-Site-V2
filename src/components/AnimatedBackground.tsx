@@ -75,7 +75,7 @@ export function AnimatedBackground() {
   };
 
   return (
-    <div className="fixed inset-0 w-full h-screen bg-gorb-bg overflow-hidden pointer-events-none z-0">
+    <div className="fixed inset-0 w-full h-screen bg-gorb-bg overflow-hidden pointer-events-none -z-10">
       <div className="absolute inset-0 pointer-events-auto">
         <AnimatePresence>
           {cookies.map(cookie => (
