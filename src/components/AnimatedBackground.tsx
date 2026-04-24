@@ -19,7 +19,7 @@ function Cookie({ x, delay, duration, size, rotationDir, sway, id, onPop }: Cook
 
   return (
     <motion.img
-      src="/assets/cookie.svg"
+      src="/cookie.svg"
       alt="Cookie"
       onClick={() => onPop(id)}
       className={`absolute top-0 cursor-pointer drop-shadow-md hover:brightness-110 active:scale-95 touch-none select-none ${
