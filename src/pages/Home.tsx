@@ -24,7 +24,7 @@ export function Home() {
           High-performance L1 chain forked from Solana
         </p>
         <h1 className="font-display text-5xl md:text-7xl lg:text-8xl leading-[0.9] tracking-tight uppercase mb-10 max-w-5xl text-gorb">
-          One dev's trash is another dev's treasure! But this... this is ALL TRASH!
+          the tech is the meme
         </h1>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-20 w-full sm:w-auto">
