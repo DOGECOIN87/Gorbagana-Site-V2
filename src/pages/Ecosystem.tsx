@@ -7,7 +7,7 @@ import { ASSETS } from '../lib/constants';
 
 export function Ecosystem() {
   return (
-    <div className="min-h-screen bg-gorb-bg text-gorb font-sans selection:bg-gorb selection:text-gorb-bg overflow-x-hidden">
+    <div className="min-h-screen bg-transparent text-gorb font-sans selection:bg-gorb selection:text-gorb-bg overflow-x-hidden">
       <Navigation />
 
       {/* Hero Section */}
